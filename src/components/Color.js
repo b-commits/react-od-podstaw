@@ -2,7 +2,6 @@ import React from 'react';
 import StarRating from './StarRating';
 import { FaTrash } from 'react-icons/fa';
 
-// Wyciągane za pomocą destrukturyzacji tylko trzy konkretne atrybuty.
 function Color({
   id,
   title,
