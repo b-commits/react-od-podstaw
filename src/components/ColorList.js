@@ -10,7 +10,6 @@ function ColorList({
   return (
     <div>
       {colors.map((color) => (
-        // Tutaj w zapisie {...color} dzięki spread operatorowi podawane są wszystkie atrybuty.
         <Color
           key={color.id}
           {...color}
